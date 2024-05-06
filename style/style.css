@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #588157;
+}
+
+.sidebar-header{
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.imagem-pessoal{
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu{
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.menu li a:hover{
+    color: #344e41;
+}
+
+.geral{
+    position: absolute;
+    top: 0;
+    background-color: #dad7cd;
+    width: 100%;
+    height: 100%;
+    left: 300px;
+}
+
+.geral-address h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 150px 0 0 50px;
+}
+
+.geral-address h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 0 65px;
+}
+
+.geral-address a{
+    text-decoration: none;
+    color: #344e41;
+    margin: 0 0 0 65px;
+}
+
+.geral-sobre{
+    margin-left: 65px;
+}
+
+.geral-social a{
+    text-decoration: none;
+}
+
+.geral-social img{
+    width: 60px;
+    padding: 5px;
+    margin: 0 0 0 60px;
+    filter: grayscale(1);
+}
+
+.geral-social img:hover{
+    filter: grayscale(0);
+}
+
+.conhecimentos_lista{
+    list-style-type: lower-alpha;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.conhecimentos_lista li{
+    padding: 10px;
+}
+
+.imagens-1{
+    position: absolute;
+    left: 450px;
+    top: 200px;
+}
+
+.imagens-1 img, .imagens-2 img{
+    padding: 20px;
+}
+
+.imagens-2{
+    position: absolute;
+    left: 530px;
+    top: 300px;
+}
+
+.objetivos{
+    margin: 130px 60px;
+}
